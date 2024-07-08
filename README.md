@@ -8,14 +8,23 @@ Face Detection and Following: Implemented using OpenCV.
 IMU and Joystick Control: Managed by Raspberry Pi Pico and communicated via UART to the Raspberry Pi.
 Video Streaming: Raspberry Pi streams video from the DJI Tello to an ST7735 screen.
 Upcoming Features: Object detection and following with TensorFlow Lite, keyword detection with TensorFlow for mode selection.
+
 Components
+
 Raspberry Pi 4: Main processing unit for video streaming and advanced features.
+
 Raspberry Pi Pico: Manages IMU and joystick inputs, communicates with Raspberry Pi 4 via UART.
+
 DJI Tello: The drone being controlled.
+
 ST7735 SPI Screen: Displays video stream from DJI Tello.
+
 Microphone: For future keyword detection features.
+
 IMU: For motion-based control.
+
 Joystick: For manual control.
+
 Installation
 Clone the repository:
 
