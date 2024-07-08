@@ -1,6 +1,8 @@
 DJI Tello Controller with Raspberry Pi and Pi Pico
 This project is a comprehensive DJI Tello controller using Raspberry Pi and Pi Pico. The controller integrates face detection and following, joystick and IMU-based control, video streaming to an ST7735 screen, and is being extended with TensorFlow Lite for object detection and keyword detection for mode selection.
-![Sample]https://github.com/Emrecanbl/Dji-Tello-Controller/blob/main/IMG_20240708_140726.jpg?raw=true)
+
+![Sample](https://github.com/Emrecanbl/Dji-Tello-Controller/blob/main/IMG_20240708_140726.jpg?raw=true)
+
 Features
 Face Detection and Following: Implemented using OpenCV.
 IMU and Joystick Control: Managed by Raspberry Pi Pico and communicated via UART to the Raspberry Pi.
@@ -40,6 +42,9 @@ Control the DJI Tello:
 Use the joystick for manual control.
 Utilize IMU for motion-based control.
 Face detection and following will automatically activate when a face is detected.
+
+![Sample](https://github.com/Emrecanbl/Dji-Tello-Controller/blob/main/IMG_20240708_140659.jpg?raw=true)
+
 Upcoming Features:
 
 Object detection and following will be added using TensorFlow Lite.
